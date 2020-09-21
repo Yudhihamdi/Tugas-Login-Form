@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#E906F1">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="SELAMAT DATANG"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="285dp"
+            android:textColor="#090909"/>
+
+        <TextView
+        android:text="Di Aplikasi login sederhana kami"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textSize="25sp"
+        tools:ignore="MissingConstraints"
+        android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/keluar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="450dp"
+            android:text="Keluar"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="630dp"
+            android:textColor="#EE0038"
+            android:textSize="20sp"
+            android:background="#FFE500"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
